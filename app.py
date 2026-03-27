@@ -27,7 +27,7 @@ warnings.filterwarnings("ignore")
 # Page configuration
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="ML Model Auditor",
+    page_title="Spurious Correlation Auditor",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -166,7 +166,7 @@ st.markdown(
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     font-size: 2.6rem; font-weight: 800;'>
-            ML Model Auditor
+            Spurious Correlation Auditor
         </h1>
         <p style='color: #aaa; font-size: 1.1rem; margin-top: -8px;'>
             Detect spurious correlations · Evaluate reliability · Generate audit reports
